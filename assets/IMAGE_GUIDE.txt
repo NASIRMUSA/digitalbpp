@@ -1,0 +1,102 @@
+/* Image Placeholder Guide for DIGITAL BPP */
+
+Required Images for the Landing Page:
+======================================
+
+1. HERO SECTION IMAGE
+   Filename: hero-business.png
+   Location: assets/hero-business.png
+   Recommended Size: 800x600px
+   Description: Professional business illustration showing entrepreneur with laptop,
+                corporate documents, and branding materials. Use corporate blue and gold colors.
+   Suggested Sources:
+   - Unsplash: https://unsplash.com/s/photos/business-professional
+   - Freepik: https://www.freepik.com/search?format=search&query=business%20professional
+   - Undraw: https://undraw.co/illustrations (customize colors to #096ba6)
+
+2. ABOUT SECTION IMAGE
+   Filename: about-business.png
+   Location: assets/about-business.png
+   Recommended Size: 600x600px
+   Description: Business team collaboration or professional office setting
+   Suggested Sources:
+   - Pexels: https://www.pexels.com/search/business%20team/
+   - Unsplash: https://unsplash.com/s/photos/business-team
+
+3. TESTIMONIAL IMAGES (3 photos needed)
+   
+   a) Client 1 - Chioma Adeleke
+      Filename: client-1.jpg
+      Location: assets/client-1.jpg
+      Size: 200x200px (square)
+      Description: Professional African businesswoman headshot
+      Suggested Sources:
+      - UI Faces: https://uifaces.co/
+      - This Person Does Not Exist: https://thispersondoesnotexist.com/
+      - Pexels: https://www.pexels.com/search/professional%20woman/
+
+   b) Client 2 - Emeka Okonkwo
+      Filename: client-2.jpg
+      Location: assets/client-2.jpg
+      Size: 200x200px (square)
+      Description: Professional African businessman headshot
+      Suggested Sources:
+      - UI Faces: https://uifaces.co/
+      - Pexels: https://www.pexels.com/search/professional%20man/
+
+   c) Client 3 - Fatima Ibrahim
+      Filename: client-3.jpg
+      Location: assets/client-3.jpg
+      Size: 200x200px (square)
+      Description: Professional African businesswoman with hijab
+      Suggested Sources:
+      - Pexels: https://www.pexels.com/search/professional%20woman%20hijab/
+
+4. FAVICON
+   Filename: favicon.png
+   Location: assets/favicon.png
+   Size: 32x32px or 64x64px
+   Description: Simple logo icon or briefcase icon
+   Suggested Sources:
+   - Favicon.io: https://favicon.io/
+   - Flaticon: https://www.flaticon.com/search?word=briefcase
+
+TEMPORARY SOLUTION:
+==================
+Until you have custom images, you can use these direct placeholder URLs:
+
+For hero-business.png:
+https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop
+
+For about-business.png:
+https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=600&fit=crop
+
+For client photos, use:
+https://i.pravatar.cc/200?img=1  (for client-1.jpg)
+https://i.pravatar.cc/200?img=12 (for client-2.jpg)
+https://i.pravatar.cc/200?img=5  (for client-3.jpg)
+
+HOW TO USE PLACEHOLDER URLS:
+============================
+Option 1: Download the images from the URLs above and save them in the assets folder
+
+Option 2: Temporarily update the HTML to use the URLs directly:
+- Open index.html
+- Find: src="assets/hero-business.png"
+- Replace with: src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop"
+- Repeat for other images
+
+RECOMMENDED WORKFLOW:
+====================
+1. Use placeholder images initially to see the design
+2. Replace with custom images that match your brand
+3. Optimize all images before final deployment (use TinyPNG.com)
+4. Ensure all images are properly licensed for commercial use
+
+IMAGE OPTIMIZATION TIPS:
+========================
+- Use WebP format for better compression
+- Compress images to reduce file size (aim for <200KB per image)
+- Use appropriate dimensions (don't upload 4K images if you only need 800px)
+- Add descriptive alt text for SEO and accessibility
+- Use lazy loading for images below the fold (already implemented in script.js)
